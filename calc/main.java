@@ -6,5 +6,6 @@ public class main {
         System.out.println("Доброе пожаловать в приложение Калькулятор.");
         LogsList logsList = new LogsList<>();
         new MenuImplements().menu(iScanner, logsList);
+        iScanner.close();
     }
 }
