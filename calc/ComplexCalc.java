@@ -1,6 +1,5 @@
-﻿import java.util.ArrayList;
-
-public class ComplexCalc extends Calc {
+﻿
+public class ComplexCalc extends RationalCalc {
     private double imagePartOfFirstValue;
     private double imagePartOfSecValue;
 
@@ -25,14 +24,4 @@ public class ComplexCalc extends Calc {
         this.imagePartOfSecValue = imagePartOfSecValue;
     }
 
-    @Override
-    public ArrayList<Double> setValuesList(ArrayList<Double> valuesList) {
-        valuesList.add(super.getFirstvalue());
-        valuesList.add(super.getSecvolue());
-        valuesList.add(imagePartOfFirstValue);
-        valuesList.add(imagePartOfSecValue);
-        return valuesList;
-    }
-
-    
 }

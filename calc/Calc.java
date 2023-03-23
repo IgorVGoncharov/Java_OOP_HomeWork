@@ -1,7 +1,4 @@
-﻿import java.util.ArrayList;
-
-public abstract class Calc {
-    //private ArrayList<Double> valuesList = new ArrayList<>();
+﻿public abstract class Calc {
     private double firstvalue;
     private double secValue;
     
@@ -25,16 +22,6 @@ public abstract class Calc {
     
     public void setSecvalue(double secvalue) {
         this.secValue = secvalue;
-    }
-    
-    //public ArrayList<Double> getValuesList() {
-    //    return valuesList;
-   // }
-    
-    public ArrayList<Double> setValuesList(ArrayList<Double> valuesList) {
-        valuesList.add(firstvalue);
-        valuesList.add(secValue);
-        return valuesList;
     }
     
 }

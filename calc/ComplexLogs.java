@@ -1,6 +1,6 @@
 ﻿import java.time.LocalDateTime;
 
-public class ComplexLogs extends Logs {
+public class ComplexLogs extends RationalLogs {
     private double imagePartOfFirstValue;
     private double imagePartOfSecValue;
 
